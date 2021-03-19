@@ -1,3 +1,5 @@
+# Copyright (c) Akslin
+
 import linecache
 
 file_name = 'actual_temp.log'
@@ -32,7 +34,6 @@ file_html.write('CPU temp: {}\n'.format(cpu_temp))
 file_html.write('<br>\n')
 file_html.write('<br>\n')
 
-file_html.write('<div id="cont_2e1240b10b945c70b1ecbfb15a807e20"><script type="text/javascript" async src="https://www.theweather.com/wid_loader/2e1240b10b945c70b1ecbfb15a807e20"></script></div>\n')
 
 file_html.write('</body>\n')
 file_html.write('</html>\n')

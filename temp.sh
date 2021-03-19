@@ -1,4 +1,6 @@
 #!/bin/bash
+# Copyright (c) Akslin
+
 ./get_temp.sh >> temp.log
 ./get_temp.sh > actual_temp.log
 
